@@ -22,4 +22,11 @@ http://www.putty.org/
 ```
 Open PuTTY and specify the IP Address and select the Protocol as SSH.
 You are all set to use Raspberry Pi Terminal. The usual user ID is pi and password is raspberry 
-I'll commit changes soon to view the desktop using software such as VNC. 
+Once there was access to the terminal, I added the following code to  install VNC:
+```
+sudo apt-get install tightvncserver
+```
+Install the VNC viewer in the computer through which you wish to access raspberry pi using :
+```
+https://www.realvnc.com/en/connect/download/viewer/
+```
